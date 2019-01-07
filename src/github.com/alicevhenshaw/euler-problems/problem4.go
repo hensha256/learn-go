@@ -9,7 +9,6 @@ func ProblemFour() (largestPalindrome int) {
 			result = i*j
 			if isPalindrome(result) && result > largestPalindrome {
 				largestPalindrome = result
-				fmt.Println(largestPalindrome)
 			}
 		}
 	}
