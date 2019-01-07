@@ -19,7 +19,3 @@ func ProblemFive() (guess int) {
 	}
 	return
 }
-
-func main() {
-	fmt.Println(ProblemFive())
-}
